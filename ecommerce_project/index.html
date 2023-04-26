@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <div class="logo">
+                <h1><a href="index.html">LOGO</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="megamenuparent"><a href="#">Shop<i class="fa fa-caret-down"></i></a>
+                        <div class="megamenu">
+                            <div class="items">
+                                <h3>Man Fashion</h3>
+                                <ul>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                </ul>
+                            </div>
+                            <div class="items">
+                                <h3>Woman Fashion</h3>
+                                <ul>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                </ul>
+                            </div>
+                            <div class="items">
+                                <h3>Beauty Product</h3>
+                                <ul>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 1</a></li>
+                                </ul>
+                            </div>
+                            <div class="items">
+                                <img src="img1.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="megamenu_news_parent"><a href="#">News<i class="fa fa-caret-down"></i></a>
+                        <div class=" megamenu_news">
+                            <div class="items">
+                                <img src="img2.png" alt="">
+                                <h3>Product 1</h3>
+                            </div>
+                            <div class="items">
+                                <img src="img2.png" alt="">
+                                <h3>Product 1</h3>
+                            </div>
+                            <div class="items">
+                                <img src="img2.png" alt="">
+                                <h3>Product 1</h3>
+                            </div>
+                            <div class="items">
+                                <img src="img2.png" alt="">
+                                <h3>Product 1</h3>
+                            </div>
+                            <div class="items">
+                                <img src="img2.png" alt="">
+                                <h3>Product 1</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="icon">
+                <i class="fa fa-search" id="search-btn"></i>
+                <i class='fa fa-user' id="userbtn"></i>
+                <i class="fa fa-heart"></i>
+                <i class='fa fa-shopping-cart' id="cart"><span id="Shop_cart">0</span></i>
+            </div>
+        </div>
+    </header>
+    <form action="" class="search-form">
+        <input type="search" class="search-box" placeholder="search here...">
+        <label for="search-box" class="fa fa-search"></label>
+  
+    </form>
+
+
+    <div id="shopingcart">
+        <div class="cartitem">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WjQreKDnzsitSGiP4fsuuBGFz-3gJJE1B779Ys_nHd52YTfkLealDlJqXiraFAcIbOA&usqp=CAU" alt="">
+            <h3 id="itemname">boat bluetooth</h3>
+            <p id="itmeprice">450</p>
+            <span id="itemremovebtn">&times</span>
+        </div>
+        <div id="totalprice">
+            <p class="total">Total</p>
+            <p>0</p>
+        </div>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="Your email" class="box" id="login-email">
+        <input type="password" placeholder="Your password" class="box" id="login_pass">
+        <p id="checkpass"></p>
+        <input type="submit" value="Login now" class="btn" id="login_btn">
+        <div><a href="forget">Forget</a>
+            <a href="register.html">Register</a></div>
+      </form>
+
+      <section class="popup">
+        <form id="form">
+          <span id="removebtn">&times;</span>
+          <h2>Contact Form</h2>
+          <div>
+            <label>Name</label>
+            <input type="text" placeholder="name" />
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" placeholder="email" />
+          </div>
+          <div>
+            <label>Phone</label>
+            <input type="number" placeholder="phone" />
+          </div>
+        </form>
+      </section>
+
+    <section>
+        <div class="hero_section">
+            <div class="hero_section_left">
+                <h1 class="title">Lowest Prices Best Quality Shopping</h1>
+                <div class="hero_section_left_feature">
+                    <div>
+                        <i class="fa fa-money"></i>
+                        <h4>Free <br> delivery</h4>
+                    </div>
+                    <div>
+                        <i class="fa fa-money"></i>
+                        <h4>Cash <br> on delivery</h4>
+                    </div>
+                    <div>
+                        <i class="fa fa-shopping-bag"></i>
+                        <h4>Easy <br> Return</h4>
+                    </div>
+                </div>
+                <div class="pa1">
+                    <!-- <a href=""><h1 class="Downloadapp" id="Downloadbtn">Download App</h1></a> -->
+                    <button class="Downloadapp" id="Downloadbtn">Download App</button>
+                </div>
+            </div>
+            <div class="hero_section_Right">
+                <img src="img9.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Top category section start -->
+    <section>
+        <div class="top_category_section">
+            <a href="#">
+                <div class="top_category_section_items">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WjQreKDnzsitSGiP4fsuuBGFz-3gJJE1B779Ys_nHd52YTfkLealDlJqXiraFAcIbOA&usqp=CAU" alt="">
+                    <h3>Beauty Product</h3>
+                </div>
+            </a>
+            <a href="#">
+                <div class="top_category_section_items">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WjQreKDnzsitSGiP4fsuuBGFz-3gJJE1B779Ys_nHd52YTfkLealDlJqXiraFAcIbOA&usqp=CAU" alt="">
+                    <h3>Beauty Product</h3>
+                </div>
+            </a>
+            <a href="#">
+                <div class="top_category_section_items">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WjQreKDnzsitSGiP4fsuuBGFz-3gJJE1B779Ys_nHd52YTfkLealDlJqXiraFAcIbOA&usqp=CAU" alt="">
+                    <h3>Beauty Product</h3>
+                </div>
+            </a>
+            <a href="#">
+                <div class="top_category_section_items">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WjQreKDnzsitSGiP4fsuuBGFz-3gJJE1B779Ys_nHd52YTfkLealDlJqXiraFAcIbOA&usqp=CAU" alt="">
+                    <h3>Beauty Product</h3>
+                </div>
+            </a>
+            <a href="#">
+                <div class="top_category_section_items">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WjQreKDnzsitSGiP4fsuuBGFz-3gJJE1B779Ys_nHd52YTfkLealDlJqXiraFAcIbOA&usqp=CAU" alt="">
+                    <h3>Beauty Product</h3>
+                </div>
+            </a>
+            <a href="#">
+                <div class="top_category_section_items">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WjQreKDnzsitSGiP4fsuuBGFz-3gJJE1B779Ys_nHd52YTfkLealDlJqXiraFAcIbOA&usqp=CAU" alt="">
+                    <h3>Beauty Product</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <div class="banner">
+            <a href="#"><img id="slider" src="https://api.ellecanada.com/app/uploads/2021/11/heres-what-beauty-pros-are-buy-800x400.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <!-- check code start -->
+    <section>
+        <div class="product_section">
+            <div class="product_section_left">
+                <a href="#"><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/2_6a4ed241-de2f-4212-a726-19af0d46c427.png?v=1626870394" alt=""></a>
+            </div>
+            <div class="product_section_right">
+                <div>
+                    <div id="product_item" class="product_item1">
+                        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_300x.png?v=1668756103" alt="">
+                        <h4 class="itemName">boAt Airdopes 402</h4>
+                        <p>45</p>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <div id="product_item" class="product_item1">
+                        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_300x.png?v=1668756103" alt="">
+                        <h4 class="itemName">Boult</h4>
+                        <p>450</p>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div>
+                    <div id="product_item" class="product_item1">
+                        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_300x.png?v=1668756103" alt="">
+                        <h4 class="itemName">boAt Airdopes 11</h4>
+                        <p>450</p>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                    <div id="product_item" class="product_item1">
+                        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_300x.png?v=1668756103" alt="">
+                        <h4 class="itemName">boAt Airdopes 313</h4>
+                        <p>450</p>
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- check code end -->
+    <section>
+        <div class="banner">
+            <a href="#"><img src="img10.png" alt=""></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="banner">
+            <a href="#"><img src="https://belk.scene7.com/is/image/Belk/wk08_2023_online_exclusive_lp_fh_1?$DWP_PHOTO$" alt=""></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="banner">
+            <a href="#"><img src="https://belk.scene7.com/is/image/Belk/wk09_032623_hp_hey_dude_fh?$DWP_PHOTO$" alt=""></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="products">
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682194561_Voltas.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682231428_Grab_or_Gone___TWS.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682194631_Realme_C35.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032047_T_shirts.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032106_Laundry_Essentials.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032133_Sports_Shoes.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032091_Kitchenware.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032064_Match_Time_Munchies.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682101908_Funishing_and_Decor.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682231447_Fire_Boltt_Unity_copy.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682194803_Macbook_Air.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider product section -->
+    <section>
+        <div class="slider-container">
+            <div class="slider-items">
+                <div class="slider-item">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+                <div class="slider-item">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+                <div class="slider-item">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+                <div class="slider-item">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+                <div class="slider-item">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+                <div class="slider-item">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+                <div class="slider-item">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1682032080_Dry_Fruits_and_Nuts.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of product 1.</p>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <span class="arrow prev" >&#10094;</span>
+                <span class="arrow next" >&#10095;</span>
+              </div>
+        </div>
+    </section>
+    <section>
+        <div class="content_section">
+            <h2>Get the Meesho App for Hassle Free Online Shopping</h2>
+            <p>If you want a seamless shopping experience, you should also consider downloading Meesho’s App. 
+                While you may think that it's unnecessary to have an app for shopping, there are plenty of 
+                features that will make your life easier. If you find yourself preferring to shop from home, 
+                this is the app for you. It makes shopping online easier than ever. You can browse through a 
+                plethora of products and even get great deals with more discounts than you can count. 
+                You can even share products you like with your friends on social media in just seconds. 
+            </p>
+
+            <h2>Trending Category</h2>
+            <div class="trending_category">
+                <div class="trending_category_item">
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+            </div>
+            <div class="trending_category_item">
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+            </div>
+            <div class="trending_category_item">
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+                <div><a href="#">Women's Shoes</a></div>
+        </div>
+        <div class="trending_category_item">
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+            <div><a href="#">Women's Shoes</a></div>
+        </div>
+            </div>
+
+
+            <h2>Trending Brand</h2>
+            <div class="trending_category">
+                <div class="trending_category_item">
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                </div>
+
+                <div class="trending_category_item">
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                    <div><a href="#">Women's Shoes</a></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="footer">
+            <div class="info">
+                <h1>Fashion World</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Facilis fugiat saepe eveniet natus ex in est nemo mollitia, 
+                    accusantium aut deserunt dignissimos distinctio commodi placeat 
+                    maiores autem libero atque! Esse maiores officia amet expedita 
+                    accusantium! Possimus sit maiores nobis, nisi a ipsam molestiae, 
+                    quod sapiente reiciendis, numquam quidem unde accusantium?</p>
+            </div>
+            <div class="customer_services">
+                <h2>Customer Services</h2>
+                <a href="#">Find My Order</a>
+                <a href="#">Return and Refounds</a>
+                <a href="#">Find a Store</a>
+                <a href="#">Store Directory</a>
+                <a href="#">Find a Registry</a>
+                <a href="#">Find a Wish List</a>
+                <a href="#">Shipping Information</a>
+                <a href="#">Pickup & Delivery Option</a>
+                <a href="#">Policies & Guidelines</a>
+            </div>
+            <div class="compamy_info">
+                <h2>Company</h2>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="compamy_app">
+                <h2>Get The Fashion World App</h2>
+                <img src="scan.png" alt="">
+                <img src="https://belk.scene7.com/is/image/Belk/footer-app-android-badge-2x?&$DWP_ARTWORK$" alt="">
+                <img src="https://belk.scene7.com/is/image/Belk/footer-app-ios-badge-2x?&$DWP_ARTWORK$" alt="">
+            </div>
+        </div>
+    </section>
+      <script src="script.js"></script>
+</body>
+</html>
